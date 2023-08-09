@@ -15,13 +15,24 @@ body{
     font-size: 14px;
     color: var(--title-color);
 }
+
+.container{
+    width: 906px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .button{
     border: 1px solid var(--title-color);
     background: var(--background-color);
-    width: 165px;
-    height: 64px;
     cursor: pointer;
     margin: 0 auto;
+    padding: 20px 48px;
+}
+
+.button-wrap{
+    display: flex;
 }
 
 .button:hover{
@@ -31,6 +42,7 @@ body{
 
 .card {
     width: 420px;
+    margin-bottom: 126px;
 }
 span{
     margin-bottom: 32px;
@@ -56,10 +68,7 @@ p{
     font-size: 14px;
 }
 
-img {
-    height: 420px;
-    width: 280px;
-}
+
 
 nav {
     word-spacing: 99px;
@@ -69,6 +78,9 @@ nav {
 
 .title{
     font-size: 30px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 40px;
 }
 
 a{
@@ -81,6 +93,13 @@ a{
 }
 
 .main-wrap{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 92px;
     margin-bottom: 90px;
+    justify-content: space-between;
 }
+
+
+
+
